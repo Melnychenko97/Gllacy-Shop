@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">	
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Gllacy Shop</title>
+</head>
+<body class="bg-0">
+	<header class="header">
+
+		<div class=" header__top">
+
+			<div class=" header__icon">
+				<img class="header__logo" src="src/Logo.png">
+			</div>
+
+			<nav class="nav">
+				<ul class="nav__list list">
+					<li class="nav__list-item">
+
+						<div class="nav__list--wrapper">
+							<p class="nav__subtitle">Новинки</p>
+							<div class="nav__underline"></div>
+							<ul class="nav__list--hidden">
+								<li class="nav__list-item--hidden">Сливочное</li>
+								<li class="nav__list-item--hidden">Щербеты</li>
+								<li class="nav__list-item--hidden">Фруктовый лед</li>
+								<li class="nav__list-item--hidden">Мелорин</li>
+							</ul>
+						</div>
+						
+						<p>Каталог</p>
+					</li>
+					<li class="nav__list-item">Доставка и оплата</li>
+					<li class="nav__list-item">О Компании</li>
+				</ul>
+			</nav>
+
+			<form class=" form header__form">
+				<ul class="form__list">
+
+					<li class="form__list-item list-item">
+						<div class="search__wrapper">
+							<input type="search" class="search" placeholder="что ищем?">
+						</div>
+						<img class="form__icon active" src="src/search.png">
+						<img class="form__icon" src="src/search--black.png">
+					</li>
+
+					<li class="form__list-item list-item">
+
+						<div class="log-in__registration--wrapper">
+							<input class="log-in__input" type="text" placeholder="электронная почта">
+							<input class="log-in__input" type="password" placeholder="пароль">
+							<button class="add log-in__submit">Войти</button>
+							<ul class="log-in__list">
+								<li class="log-in__list-item"><a class="log-in__reference" href="#">Забыли пароль?</a></li>
+								<li class="log-in__list-item"><a class="log-in__reference" href="#">Новая регистрация</a></li>
+							</ul>
+						</div>
+
+						<img class="form__icon active" src="src/LogIn.png">
+						<img class="form__icon" src="src/LogIn--black.png">
+
+						<p class="form__list-item--description">Вход</p>
+					</li>
+
+					<li class="form__list-item form__basket">
+
+						<div class="basket__wrapper">
+							<ul class="basket__list list">
+								<li class="basket__list-item list-item">
+									<button class="close basket__close">
+										<img class="close__icon" src="src/cross.png" alt="delete order item">
+									</button>
+									<img class="order__icon" src="src/1.png" alt="icon of ice-scream">
+									<p class="order__title">Пломбир с апельсиновым джемом</p>
+									<span class="order__info">
+										<p class="order__weight">1кг x</p>
+										<p class="order__price">310 руб.</p>
+									</span>
+									<p class="order__total-price">310 руб.</p>
+
+								</li>
+
+								<li class="basket__list-item list-item">
+									<button class="close basket__close">
+										<img class="close__icon" src="src/cross.png" alt="delete order item">
+									</button>
+									<img class="order__icon" src="src/2.png" alt="icon of ice-scream">
+									<p class="order__title">Кофейный пломбир с кусочками шоколада</p>
+									<span class="order__info">
+										<p class="order__weight">1кг x</p>
+										<p class="order__price">380 руб.</p>
+									</span>
+									<p class="order__total-price">380 руб.</p>
+
+								</li>
+
+								<li class="basket__list-item list-item">
+									<button class="close basket__close">
+										<img class="close__icon" src="src/cross.png" alt="delete order item">
+									</button>
+									<img class="order__icon" src="src/3.png" alt="icon of ice-scream">
+									<p class="order__title">Клубничный пломбир с присыпкой из белого шоколада</p>
+									<span class="order__info">
+										<p class="order__weight">1кг x</p>
+										<p class="order__price">355 руб.</p>
+									</span class="order__info">
+									<p class="order__total-price">355 руб.</p>
+
+								</li>
+
+								<li class="basket__list-item list-item">
+									<button class="close basket__close">
+										<img class="close__icon" src="src/cross.png" alt="delete order item">
+									</button>
+									<img class="order__icon" src="src/4.png" alt="icon of ice-scream">
+									<p class="order__title">Крем-брюле пломбир с карамельной подливкой</p>
+									<span class="order__info">
+										<p class="order__weight">1кг x</p>
+										<p class="order__price">415 руб.</p>
+									</span>
+									<p class="order__total-price">415 руб.</p>
+
+								</li>
+
+							</ul>
+							<div class="basket__underline"></div>
+							<span class="basket__result--wrapper">
+								<p class=" basket__result">Итого:</p>
+								<p class="basket__result price">0</p>
+							</span>
+							<button class="add add--small basket__submit">Оформить заказ</button>
+
+						</div>
+						<img class="form__icon active" src="src/basket.png">
+						<img class="form__icon" src="src/basket--active.png">
+						<p class="form__list-item--description">Пусто</p>
+					</li>
+
+
+
+				</ul>
+			</form>
+		</div>
+
+		<div class="header__bottom">
+
+			<ul class="header__info">
+				<li class="list-item__description">С 10 до 20, ежедневно</li>
+				<li class="list-item__description list-item__description--contact-phone">8 812 450-25-25</li>
+			</ul>
+
+		</div>
+
+	</header>
+
+	<main class="main">
+
+		<section class="ice-scream">
+			<div class="carousel">
+				<div class="carousel__nav nav">
+					<ul class="nav__list">
+						<li class="nav__item visible"></li>
+						<li class="nav__item"></li>
+						<li class="nav__item"></li>
+					</ul>
+
+				</div>
+
+				<div class="carousel__inner">
+
+					<div class="carousel__item visible">
+						<img class="carousel__image carousel__image--front-side" src="src/ice-scream-1.png">
+						<img class="carousel__image carousel__image--back-side" src="src/ice-scream-2.png">
+						<h2 class="carousel__title">Крем-брюле и пломбир с малиновым джемом</h2>
+						<button class="add">Давайте оба!</button>
+					</div>
+
+					<div class="carousel__item">
+						<img class="carousel__image carousel__image--front-side" src="src/ice-scream-3.png"></img>
+						<img class="carousel__image carousel__image--back-side" src="src/ice-scream-4.png"></img>
+						<h2 class="carousel__title">Шоколадный пломбир и лимонный сорбет </h2>
+						<button class="add">Давайте оба!</button>
+
+					</div>
+
+					<div class="carousel__item">
+						<img class="carousel__image carousel__image--front-side" src="src/ice-scream-5.png"></img>
+						<img class="carousel__image carousel__image--back-side" src="src/ice-scream-6.png"></img>
+						<h2 class="carousel__title">Пломбир с помадкой и клубничный щербет</h2>
+						<button class="add">Давайте оба!</button>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+		<section class="shares">
+			<div class="shares__topping shares__topping--raspberries">
+				<h3 class="shares__title">Малинка даром!</h3>
+				<p class="shares__subtitle">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
+				<div class="add__wrapper">
+					<button class="add add--small">Хочу варенье!</button>
+				</div>
+			</div>
+			<div class="shares__topping shares__topping--chocolate">
+				<h3 class="shares__title">Шоколадки даром!</h3>
+				<p class="shares__subtitle">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки  совершенно бесплатно.</p>
+				<div class="add__wrapper">
+					<button class="add add--small">Хочу варенье!</button>
+				</div>
+			</div>
+		</section>
+		<section class="hits">
+			<div class="hits__item">
+				<div class="hits__image--wrapper">
+					<img class="hits__image" src="src/1.png">
+					<img class="hits__label" src="src/hit.png">
+
+					<div class="hits__price">
+						<p class="hits__price--number">310</p>
+						<img class="hits__price--valute" src="src/ruble.png">
+						<p class="hits__price--measure">/кг</p>
+					</div>
+				</div>
+				<p class="hits__description">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+				<button class="add add--small hits__button">В корзину</button>
+			</div>
+
+			<div class="hits__item">
+				<div class="hits__image--wrapper">
+					<img class="hits__image" src="src/2.png">
+					<img class="hits__label" src="src/hit.png">
+
+					<div class="hits__price">
+						<p class="hits__price--number">380</p>
+						<img class="hits__price--valute" src="src/ruble.png">
+						<p class="hits__price--measure">/кг</p>
+					</div>
+				</div>
+				<p class="hits__description">Сливочно-кофейное с кусочками шоколада</p>
+				<button class="add add--small hits__button">В корзину</button>
+			</div>
+
+			<div class="hits__item">
+				<div class="hits__image--wrapper">
+					<img class="hits__image" src="src/3.png">
+					<img class="hits__label" src="src/hit.png">
+
+					<div class="hits__price">
+						<p class="hits__price--number">355</p>
+						<img class="hits__price--valute" src="src/ruble.png">
+						<p class="hits__price--measure">/кг</p>
+					</div>
+				</div>
+				<p class="hits__description">Сливочно-клубничное с присыпкой из белого шоколада</p>
+				<button class="add add--small hits__button">В корзину</button>
+			</div>
+
+			<div class="hits__item">
+				<div class="hits__image--wrapper">
+					<img class="hits__image" src="src/4.png">
+					<img class="hits__label" src="src/hit.png">
+
+					<div class="hits__price">
+						<p class="hits__price--number">415</p>
+						<img class="hits__price--valute" src="src/ruble.png">
+						<p class="hits__price--measure">/кг</p>
+					</div>
+				</div>
+				<p class="hits__description">Сливочное крем-брюле с карамельной подливкой</p>
+				<button class="add add--small hits__button">В корзину</button>
+			</div>
+		</section>
+	</main>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
