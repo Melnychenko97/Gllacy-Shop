@@ -50,7 +50,7 @@ class Slider {
 		        bg.classList.remove(`bg-${itemPositionCounter}`);
 			    bg.classList.add(`bg-0`);
 
-		        itemPositionCounter = 0;
+		        itemPositionCounter = FIRST_ITEM;
 		    } else {
 			    itemsList[itemPositionCounter].classList.remove('visible');
 			    itemsList[itemPositionCounter].classList.add('unvisible');
